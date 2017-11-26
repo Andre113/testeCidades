@@ -12,24 +12,22 @@ import Foundation
 import SwiftyJSON
 
 class CidadesNetwork : NetworkManager {
-    
-    class func cidadesRoutine(callback: @escaping([CidadeModel]) -> Void){
+    class func cidadesRoutine(callback: @escaping([CidadeModel]?) -> Void){
         print(REST.lista_url)
         
         requestJson(method: Method.get, url: REST.lista_url) { (response) in
             
-            var listaCidades: [CidadeModel] = []
-            
             if (response.response?.statusCode ?? 0) != 200{
-                callback(listaCidades)
+                callback(nil)
                 return
             }
             
             guard let cidadesJson = response.result.value as? [[String: Any]] else{
-                callback(listaCidades)
+                callback(nil)
                 return
             }
             
+            var listaCidades: [CidadeModel] = []
             for cidadeJson in cidadesJson{
                 listaCidades.append(CidadeModelLoader.loadCidadeModel(json: cidadeJson))
             }

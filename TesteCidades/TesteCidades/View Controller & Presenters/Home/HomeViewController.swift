@@ -14,8 +14,6 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var estadoTextField: UITextField!
     @IBOutlet weak var buscarButton: UIButton!
     
-    var presenter: HomePresenter!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

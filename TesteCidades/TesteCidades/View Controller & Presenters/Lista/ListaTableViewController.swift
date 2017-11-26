@@ -10,7 +10,7 @@ import UIKit
 
 class ListaTableViewController: UITableViewController {
 
-    let activityView = UIActivityIndicatorView()
+    let activityView = UIActivityIndicatorView(activityIndicatorStyle: .whiteLarge)
     
     var cidadeParam: String = ""
     var estadoParam: String = ""

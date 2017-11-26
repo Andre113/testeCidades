@@ -13,7 +13,6 @@
 		24120B061FCA4B5800094097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24120B051FCA4B5800094097 /* Assets.xcassets */; };
 		24120B091FCA4B5800094097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24120B071FCA4B5800094097 /* LaunchScreen.storyboard */; };
 		241E25D31FCA595F00642655 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25D21FCA595F00642655 /* HomeViewController.swift */; };
-		241E25D61FCA5C4000642655 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25D51FCA5C4000642655 /* HomePresenter.swift */; };
 		241E25DB1FCA608100642655 /* HomeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25DA1FCA608100642655 /* HomeTextFieldDelegate.swift */; };
 		241E25DE1FCA643D00642655 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25DD1FCA643D00642655 /* ListaTableViewController.swift */; };
 		241E25E21FCA64D100642655 /* CidadeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25E01FCA64D100642655 /* CidadeTableViewCell.swift */; };
@@ -28,6 +27,11 @@
 		241E25F71FCA762300642655 /* ListaTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25F61FCA762300642655 /* ListaTableViewDelegate.swift */; };
 		241E25FA1FCA770D00642655 /* CidadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25F91FCA770D00642655 /* CidadeViewController.swift */; };
 		241E25FD1FCA7A7000642655 /* SectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25FC1FCA7A7000642655 /* SectionInfo.swift */; };
+		241E26021FCA844000642655 /* CidadePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E26011FCA844000642655 /* CidadePresenter.swift */; };
+		241E26041FCA845300642655 /* CidadeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E26031FCA845300642655 /* CidadeViewProtocol.swift */; };
+		241E26061FCA850D00642655 /* PontosNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E26051FCA850D00642655 /* PontosNetwork.swift */; };
+		241E26091FCA86FC00642655 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E26081FCA86FC00642655 /* UINavigationControllerExtension.swift */; };
+		241E260D1FCA8A8700642655 /* DefaultNavigatoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E260C1FCA8A8700642655 /* DefaultNavigatoinViewController.swift */; };
 		26087DA72C3A84AE9B662926 /* Pods_TesteCidades.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB56F9DFC1E1A6D7589D82A /* Pods_TesteCidades.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +45,6 @@
 		24120B081FCA4B5800094097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24120B0A1FCA4B5800094097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		241E25D21FCA595F00642655 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		241E25D51FCA5C4000642655 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		241E25DA1FCA608100642655 /* HomeTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTextFieldDelegate.swift; sourceTree = "<group>"; };
 		241E25DD1FCA643D00642655 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
 		241E25E01FCA64D100642655 /* CidadeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidadeTableViewCell.swift; sourceTree = "<group>"; };
@@ -56,6 +59,11 @@
 		241E25F61FCA762300642655 /* ListaTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewDelegate.swift; sourceTree = "<group>"; };
 		241E25F91FCA770D00642655 /* CidadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidadeViewController.swift; sourceTree = "<group>"; };
 		241E25FC1FCA7A7000642655 /* SectionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInfo.swift; sourceTree = "<group>"; };
+		241E26011FCA844000642655 /* CidadePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidadePresenter.swift; sourceTree = "<group>"; };
+		241E26031FCA845300642655 /* CidadeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidadeViewProtocol.swift; sourceTree = "<group>"; };
+		241E26051FCA850D00642655 /* PontosNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontosNetwork.swift; sourceTree = "<group>"; };
+		241E26081FCA86FC00642655 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		241E260C1FCA8A8700642655 /* DefaultNavigatoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNavigatoinViewController.swift; sourceTree = "<group>"; };
 		368249300D572AB25BA4359A /* Pods-TesteCidades.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteCidades.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteCidades/Pods-TesteCidades.debug.xcconfig"; sourceTree = "<group>"; };
 		D0033490D14D1138F8E2EFA5 /* Pods-TesteCidades.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteCidades.release.xcconfig"; path = "Pods/Target Support Files/Pods-TesteCidades/Pods-TesteCidades.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,12 +101,12 @@
 		24120AFA1FCA4B5800094097 /* TesteCidades */ = {
 			isa = PBXGroup;
 			children = (
-				241E25F01FCA6EB800642655 /* Models */,
+				241E25F01FCA6EB800642655 /* Model */,
+				241E25D01FCA594200642655 /* View Controller & Presenters */,
+				241E26001FCA832900642655 /* Storyboard */,
 				241E25EB1FCA6E0E00642655 /* Network */,
 				241E25D41FCA5C2100642655 /* Util */,
-				241E25D01FCA594200642655 /* View Controller & Presenters */,
 				24120AFB1FCA4B5800094097 /* AppDelegate.swift */,
-				24120AFF1FCA4B5800094097 /* Main.storyboard */,
 				24120B051FCA4B5800094097 /* Assets.xcassets */,
 				24120B071FCA4B5800094097 /* LaunchScreen.storyboard */,
 				24120B0A1FCA4B5800094097 /* Info.plist */,
@@ -122,7 +130,6 @@
 			children = (
 				241E25DA1FCA608100642655 /* HomeTextFieldDelegate.swift */,
 				241E25D21FCA595F00642655 /* HomeViewController.swift */,
-				241E25D51FCA5C4000642655 /* HomePresenter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -130,6 +137,8 @@
 		241E25D41FCA5C2100642655 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				241E260B1FCA8A6A00642655 /* Default */,
+				241E26071FCA86DD00642655 /* Extension */,
 				241E25E81FCA6CDE00642655 /* Constants */,
 			);
 			path = Util;
@@ -171,22 +180,25 @@
 			children = (
 				241E25EC1FCA6E1A00642655 /* NetworkManager.swift */,
 				241E25EE1FCA6E8000642655 /* CidadesNetwork.swift */,
+				241E26051FCA850D00642655 /* PontosNetwork.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
 		};
-		241E25F01FCA6EB800642655 /* Models */ = {
+		241E25F01FCA6EB800642655 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				241E25F11FCA6EE400642655 /* CidadeModel.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		241E25F81FCA770100642655 /* Cidade */ = {
 			isa = PBXGroup;
 			children = (
 				241E25F91FCA770D00642655 /* CidadeViewController.swift */,
+				241E26031FCA845300642655 /* CidadeViewProtocol.swift */,
+				241E26011FCA844000642655 /* CidadePresenter.swift */,
 			);
 			path = Cidade;
 			sourceTree = "<group>";
@@ -197,6 +209,30 @@
 				241E25FC1FCA7A7000642655 /* SectionInfo.swift */,
 			);
 			path = SectionInfo;
+			sourceTree = "<group>";
+		};
+		241E26001FCA832900642655 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				24120AFF1FCA4B5800094097 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		241E26071FCA86DD00642655 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				241E26081FCA86FC00642655 /* UINavigationControllerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		241E260B1FCA8A6A00642655 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				241E260C1FCA8A8700642655 /* DefaultNavigatoinViewController.swift */,
+			);
+			path = Default;
 			sourceTree = "<group>";
 		};
 		FA44ACA65082485D6FF0F927 /* Pods */ = {
@@ -340,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241E260D1FCA8A8700642655 /* DefaultNavigatoinViewController.swift in Sources */,
 				241E25E21FCA64D100642655 /* CidadeTableViewCell.swift in Sources */,
 				24120AFC1FCA4B5800094097 /* AppDelegate.swift in Sources */,
 				24120B041FCA4B5800094097 /* TesteCidades.xcdatamodeld in Sources */,
@@ -349,10 +386,13 @@
 				241E25EF1FCA6E8000642655 /* CidadesNetwork.swift in Sources */,
 				241E25F21FCA6EE400642655 /* CidadeModel.swift in Sources */,
 				241E25E51FCA67F100642655 /* ListaPresenter.swift in Sources */,
-				241E25D61FCA5C4000642655 /* HomePresenter.swift in Sources */,
+				241E26021FCA844000642655 /* CidadePresenter.swift in Sources */,
 				241E25F71FCA762300642655 /* ListaTableViewDelegate.swift in Sources */,
 				241E25EA1FCA6CF700642655 /* UIColorExtension.swift in Sources */,
+				241E26041FCA845300642655 /* CidadeViewProtocol.swift in Sources */,
+				241E26091FCA86FC00642655 /* UINavigationControllerExtension.swift in Sources */,
 				241E25FD1FCA7A7000642655 /* SectionInfo.swift in Sources */,
+				241E26061FCA850D00642655 /* PontosNetwork.swift in Sources */,
 				241E25DB1FCA608100642655 /* HomeTextFieldDelegate.swift in Sources */,
 				241E25DE1FCA643D00642655 /* ListaTableViewController.swift in Sources */,
 				241E25FA1FCA770D00642655 /* CidadeViewController.swift in Sources */,

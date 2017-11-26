@@ -19,11 +19,17 @@ class ListaPresenter: NSObject {
     func loadCidadesWithFilter(cidade: String, estado: String){
         self.listaView.startLoading()
         CidadesNetwork.cidadesRoutine { (cidades) in
-            self.filterCidades(cidades: cidades, cidadeParam: cidade, estadoParam: estado)
+            if cidades == nil{
+                self.listaView.finishLoading()
+                self.listaView.showAlert(msg: "Ocorreu um erro. Tente novamente mais tarde.")
+                return
+            }
+            
+            self.filterCidades(cidades: cidades!, cidadeParam: cidade, estadoParam: estado)
         }
     }
     
-    //    MARK: - Logic
+    //    MARK: - Process
     func filterCidades(cidades: [CidadeModel], cidadeParam: String, estadoParam: String){
         let filteredCidades: [CidadeModel] = cidades.filter({
             (($0.nome.lowercased().contains(cidadeParam.lowercased())) || (cidadeParam == "") &&

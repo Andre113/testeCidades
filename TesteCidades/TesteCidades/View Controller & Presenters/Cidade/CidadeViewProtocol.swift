@@ -1,5 +1,5 @@
 //
-//  ListaViewProtocol.swift
+//  CidadeViewProtocol.swift
 //  TesteCidades
 //
 //  Created by Andre Lucas Ota on 26/11/2017.
@@ -8,20 +8,19 @@
 
 import UIKit
 
-protocol ListaView: NSObjectProtocol{
+protocol CidadeView: NSObjectProtocol {
     func startLoading()
     func finishLoading()
-    func setCidades(sections: [SectionInfo])
+    func setPontos(pontos: String)
     func showAlert(msg: String)
 }
 
-extension ListaTableViewController: ListaView{
-    
+extension CidadeViewController: CidadeView {
     func startLoading() {
         self.view.isUserInteractionEnabled = false
         self.view.bringSubview(toFront: self.activityView)
         
-        self.activityView.center = self.tableView.center
+        self.activityView.center = self.view.center
         self.activityView.startAnimating()
     }
     
@@ -30,9 +29,8 @@ extension ListaTableViewController: ListaView{
         self.activityView.stopAnimating()
     }
     
-    func setCidades(sections: [SectionInfo]) {
-        self.sections = sections
-        self.updateTableView()
+    func setPontos(pontos: String) {
+        self.cidadeLabel.text = "A pontuação da Cidade \(self.cidade.nome) é \(pontos)"
     }
     
     func showAlert(msg: String) {
