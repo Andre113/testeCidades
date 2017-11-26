@@ -8,22 +8,56 @@
 
 /* Begin PBXBuildFile section */
 		24120AFC1FCA4B5800094097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24120AFB1FCA4B5800094097 /* AppDelegate.swift */; };
-		24120AFE1FCA4B5800094097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24120AFD1FCA4B5800094097 /* ViewController.swift */; };
 		24120B011FCA4B5800094097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24120AFF1FCA4B5800094097 /* Main.storyboard */; };
 		24120B041FCA4B5800094097 /* TesteCidades.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24120B021FCA4B5800094097 /* TesteCidades.xcdatamodeld */; };
 		24120B061FCA4B5800094097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24120B051FCA4B5800094097 /* Assets.xcassets */; };
 		24120B091FCA4B5800094097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24120B071FCA4B5800094097 /* LaunchScreen.storyboard */; };
+		241E25D31FCA595F00642655 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25D21FCA595F00642655 /* HomeViewController.swift */; };
+		241E25D61FCA5C4000642655 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25D51FCA5C4000642655 /* HomePresenter.swift */; };
+		241E25DB1FCA608100642655 /* HomeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25DA1FCA608100642655 /* HomeTextFieldDelegate.swift */; };
+		241E25DE1FCA643D00642655 /* ListaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25DD1FCA643D00642655 /* ListaTableViewController.swift */; };
+		241E25E21FCA64D100642655 /* CidadeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25E01FCA64D100642655 /* CidadeTableViewCell.swift */; };
+		241E25E31FCA64D100642655 /* CidadeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 241E25E11FCA64D100642655 /* CidadeTableViewCell.xib */; };
+		241E25E51FCA67F100642655 /* ListaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25E41FCA67F100642655 /* ListaPresenter.swift */; };
+		241E25E71FCA6BBA00642655 /* ListaViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25E61FCA6BBA00642655 /* ListaViewProtocol.swift */; };
+		241E25EA1FCA6CF700642655 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25E91FCA6CF700642655 /* UIColorExtension.swift */; };
+		241E25ED1FCA6E1A00642655 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25EC1FCA6E1A00642655 /* NetworkManager.swift */; };
+		241E25EF1FCA6E8000642655 /* CidadesNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25EE1FCA6E8000642655 /* CidadesNetwork.swift */; };
+		241E25F21FCA6EE400642655 /* CidadeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25F11FCA6EE400642655 /* CidadeModel.swift */; };
+		241E25F51FCA709500642655 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25F41FCA709500642655 /* REST.swift */; };
+		241E25F71FCA762300642655 /* ListaTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25F61FCA762300642655 /* ListaTableViewDelegate.swift */; };
+		241E25FA1FCA770D00642655 /* CidadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25F91FCA770D00642655 /* CidadeViewController.swift */; };
+		241E25FD1FCA7A7000642655 /* SectionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241E25FC1FCA7A7000642655 /* SectionInfo.swift */; };
+		26087DA72C3A84AE9B662926 /* Pods_TesteCidades.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB56F9DFC1E1A6D7589D82A /* Pods_TesteCidades.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1AB56F9DFC1E1A6D7589D82A /* Pods_TesteCidades.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TesteCidades.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24120AF81FCA4B5800094097 /* TesteCidades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TesteCidades.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24120AFB1FCA4B5800094097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24120AFD1FCA4B5800094097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24120B001FCA4B5800094097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24120B031FCA4B5800094097 /* TesteCidades.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TesteCidades.xcdatamodel; sourceTree = "<group>"; };
 		24120B051FCA4B5800094097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24120B081FCA4B5800094097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24120B0A1FCA4B5800094097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241E25D21FCA595F00642655 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		241E25D51FCA5C4000642655 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		241E25DA1FCA608100642655 /* HomeTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		241E25DD1FCA643D00642655 /* ListaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewController.swift; sourceTree = "<group>"; };
+		241E25E01FCA64D100642655 /* CidadeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidadeTableViewCell.swift; sourceTree = "<group>"; };
+		241E25E11FCA64D100642655 /* CidadeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CidadeTableViewCell.xib; sourceTree = "<group>"; };
+		241E25E41FCA67F100642655 /* ListaPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaPresenter.swift; sourceTree = "<group>"; };
+		241E25E61FCA6BBA00642655 /* ListaViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaViewProtocol.swift; sourceTree = "<group>"; };
+		241E25E91FCA6CF700642655 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		241E25EC1FCA6E1A00642655 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		241E25EE1FCA6E8000642655 /* CidadesNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidadesNetwork.swift; sourceTree = "<group>"; };
+		241E25F11FCA6EE400642655 /* CidadeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidadeModel.swift; sourceTree = "<group>"; };
+		241E25F41FCA709500642655 /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		241E25F61FCA762300642655 /* ListaTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTableViewDelegate.swift; sourceTree = "<group>"; };
+		241E25F91FCA770D00642655 /* CidadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidadeViewController.swift; sourceTree = "<group>"; };
+		241E25FC1FCA7A7000642655 /* SectionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionInfo.swift; sourceTree = "<group>"; };
+		368249300D572AB25BA4359A /* Pods-TesteCidades.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteCidades.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TesteCidades/Pods-TesteCidades.debug.xcconfig"; sourceTree = "<group>"; };
+		D0033490D14D1138F8E2EFA5 /* Pods-TesteCidades.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteCidades.release.xcconfig"; path = "Pods/Target Support Files/Pods-TesteCidades/Pods-TesteCidades.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26087DA72C3A84AE9B662926 /* Pods_TesteCidades.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +77,8 @@
 			children = (
 				24120AFA1FCA4B5800094097 /* TesteCidades */,
 				24120AF91FCA4B5800094097 /* Products */,
+				FA44ACA65082485D6FF0F927 /* Pods */,
+				FFD40B8DD8E1ADAA5CC11713 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +93,11 @@
 		24120AFA1FCA4B5800094097 /* TesteCidades */ = {
 			isa = PBXGroup;
 			children = (
+				241E25F01FCA6EB800642655 /* Models */,
+				241E25EB1FCA6E0E00642655 /* Network */,
+				241E25D41FCA5C2100642655 /* Util */,
+				241E25D01FCA594200642655 /* View Controller & Presenters */,
 				24120AFB1FCA4B5800094097 /* AppDelegate.swift */,
-				24120AFD1FCA4B5800094097 /* ViewController.swift */,
 				24120AFF1FCA4B5800094097 /* Main.storyboard */,
 				24120B051FCA4B5800094097 /* Assets.xcassets */,
 				24120B071FCA4B5800094097 /* LaunchScreen.storyboard */,
@@ -67,6 +107,115 @@
 			path = TesteCidades;
 			sourceTree = "<group>";
 		};
+		241E25D01FCA594200642655 /* View Controller & Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				241E25F81FCA770100642655 /* Cidade */,
+				241E25DC1FCA643000642655 /* Lista */,
+				241E25D11FCA595100642655 /* Home */,
+			);
+			path = "View Controller & Presenters";
+			sourceTree = "<group>";
+		};
+		241E25D11FCA595100642655 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				241E25DA1FCA608100642655 /* HomeTextFieldDelegate.swift */,
+				241E25D21FCA595F00642655 /* HomeViewController.swift */,
+				241E25D51FCA5C4000642655 /* HomePresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		241E25D41FCA5C2100642655 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				241E25E81FCA6CDE00642655 /* Constants */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		241E25DC1FCA643000642655 /* Lista */ = {
+			isa = PBXGroup;
+			children = (
+				241E25FB1FCA7A6100642655 /* SectionInfo */,
+				241E25DF1FCA649900642655 /* CidadeCell */,
+				241E25DD1FCA643D00642655 /* ListaTableViewController.swift */,
+				241E25E61FCA6BBA00642655 /* ListaViewProtocol.swift */,
+				241E25F61FCA762300642655 /* ListaTableViewDelegate.swift */,
+				241E25E41FCA67F100642655 /* ListaPresenter.swift */,
+			);
+			path = Lista;
+			sourceTree = "<group>";
+		};
+		241E25DF1FCA649900642655 /* CidadeCell */ = {
+			isa = PBXGroup;
+			children = (
+				241E25E01FCA64D100642655 /* CidadeTableViewCell.swift */,
+				241E25E11FCA64D100642655 /* CidadeTableViewCell.xib */,
+			);
+			path = CidadeCell;
+			sourceTree = "<group>";
+		};
+		241E25E81FCA6CDE00642655 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				241E25E91FCA6CF700642655 /* UIColorExtension.swift */,
+				241E25F41FCA709500642655 /* REST.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		241E25EB1FCA6E0E00642655 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				241E25EC1FCA6E1A00642655 /* NetworkManager.swift */,
+				241E25EE1FCA6E8000642655 /* CidadesNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		241E25F01FCA6EB800642655 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				241E25F11FCA6EE400642655 /* CidadeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		241E25F81FCA770100642655 /* Cidade */ = {
+			isa = PBXGroup;
+			children = (
+				241E25F91FCA770D00642655 /* CidadeViewController.swift */,
+			);
+			path = Cidade;
+			sourceTree = "<group>";
+		};
+		241E25FB1FCA7A6100642655 /* SectionInfo */ = {
+			isa = PBXGroup;
+			children = (
+				241E25FC1FCA7A7000642655 /* SectionInfo.swift */,
+			);
+			path = SectionInfo;
+			sourceTree = "<group>";
+		};
+		FA44ACA65082485D6FF0F927 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				368249300D572AB25BA4359A /* Pods-TesteCidades.debug.xcconfig */,
+				D0033490D14D1138F8E2EFA5 /* Pods-TesteCidades.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFD40B8DD8E1ADAA5CC11713 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB56F9DFC1E1A6D7589D82A /* Pods_TesteCidades.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24120B0D1FCA4B5800094097 /* Build configuration list for PBXNativeTarget "TesteCidades" */;
 			buildPhases = (
+				A97D39941BF28558E27F0686 /* [CP] Check Pods Manifest.lock */,
 				24120AF41FCA4B5800094097 /* Sources */,
 				24120AF51FCA4B5800094097 /* Frameworks */,
 				24120AF61FCA4B5800094097 /* Resources */,
+				E2C14104E7030501689A12B4 /* [CP] Embed Pods Frameworks */,
+				51A2E956148F3A08DCA32978 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24120B091FCA4B5800094097 /* LaunchScreen.storyboard in Resources */,
+				241E25E31FCA64D100642655 /* CidadeTableViewCell.xib in Resources */,
 				24120B061FCA4B5800094097 /* Assets.xcassets in Resources */,
 				24120B011FCA4B5800094097 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +287,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51A2E956148F3A08DCA32978 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TesteCidades/Pods-TesteCidades-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A97D39941BF28558E27F0686 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C14104E7030501689A12B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TesteCidades/Pods-TesteCidades-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24120AF41FCA4B5800094097 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24120AFE1FCA4B5800094097 /* ViewController.swift in Sources */,
+				241E25E21FCA64D100642655 /* CidadeTableViewCell.swift in Sources */,
 				24120AFC1FCA4B5800094097 /* AppDelegate.swift in Sources */,
 				24120B041FCA4B5800094097 /* TesteCidades.xcdatamodeld in Sources */,
+				241E25D31FCA595F00642655 /* HomeViewController.swift in Sources */,
+				241E25ED1FCA6E1A00642655 /* NetworkManager.swift in Sources */,
+				241E25E71FCA6BBA00642655 /* ListaViewProtocol.swift in Sources */,
+				241E25EF1FCA6E8000642655 /* CidadesNetwork.swift in Sources */,
+				241E25F21FCA6EE400642655 /* CidadeModel.swift in Sources */,
+				241E25E51FCA67F100642655 /* ListaPresenter.swift in Sources */,
+				241E25D61FCA5C4000642655 /* HomePresenter.swift in Sources */,
+				241E25F71FCA762300642655 /* ListaTableViewDelegate.swift in Sources */,
+				241E25EA1FCA6CF700642655 /* UIColorExtension.swift in Sources */,
+				241E25FD1FCA7A7000642655 /* SectionInfo.swift in Sources */,
+				241E25DB1FCA608100642655 /* HomeTextFieldDelegate.swift in Sources */,
+				241E25DE1FCA643D00642655 /* ListaTableViewController.swift in Sources */,
+				241E25FA1FCA770D00642655 /* CidadeViewController.swift in Sources */,
+				241E25F51FCA709500642655 /* REST.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +491,7 @@
 		};
 		24120B0E1FCA4B5800094097 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368249300D572AB25BA4359A /* Pods-TesteCidades.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +507,7 @@
 		};
 		24120B0F1FCA4B5800094097 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0033490D14D1138F8E2EFA5 /* Pods-TesteCidades.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

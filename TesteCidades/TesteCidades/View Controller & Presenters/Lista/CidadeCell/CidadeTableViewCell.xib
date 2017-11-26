@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Courier.ttc">
+            <string>Courier</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="120" id="KGk-i7-Jjw" customClass="CidadeTableViewCell" customModule="TesteCidades" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="117"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="116.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cidade: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umo-R5-zNQ">
+                        <rect key="frame" x="20" y="21" width="82" height="17"/>
+                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estado:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xr4-Dv-j68">
+                        <rect key="frame" x="20" y="79" width="81.5" height="17"/>
+                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="São José dos Campos" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cxo-fi-Fdj">
+                        <rect key="frame" x="117" y="21" width="183" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="50" id="wz3-i4-jlc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="São Paulo" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="9" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zG3-7z-3MI">
+                        <rect key="frame" x="116.5" y="79" width="183.5" height="17"/>
+                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="xr4-Dv-j68" secondAttribute="bottom" constant="10" id="1rt-1G-DRu"/>
+                    <constraint firstAttribute="trailing" secondItem="cxo-fi-Fdj" secondAttribute="trailing" constant="20" id="AWo-kn-gFO"/>
+                    <constraint firstItem="zG3-7z-3MI" firstAttribute="trailing" secondItem="cxo-fi-Fdj" secondAttribute="trailing" id="Ld7-tw-5cL"/>
+                    <constraint firstItem="xr4-Dv-j68" firstAttribute="leading" secondItem="umo-R5-zNQ" secondAttribute="leading" id="QCT-Te-tu3"/>
+                    <constraint firstItem="zG3-7z-3MI" firstAttribute="leading" secondItem="cxo-fi-Fdj" secondAttribute="leading" id="Qnx-3k-vxC"/>
+                    <constraint firstItem="zG3-7z-3MI" firstAttribute="top" secondItem="xr4-Dv-j68" secondAttribute="top" id="R4B-vv-hZ7"/>
+                    <constraint firstItem="cxo-fi-Fdj" firstAttribute="top" secondItem="umo-R5-zNQ" secondAttribute="top" id="Uif-oM-Mrg"/>
+                    <constraint firstItem="zG3-7z-3MI" firstAttribute="centerY" secondItem="xr4-Dv-j68" secondAttribute="centerY" id="fIR-Dt-TdK"/>
+                    <constraint firstItem="umo-R5-zNQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="kSy-dv-C4k"/>
+                    <constraint firstItem="umo-R5-zNQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="nDK-3A-Vd1"/>
+                    <constraint firstItem="xr4-Dv-j68" firstAttribute="trailing" secondItem="umo-R5-zNQ" secondAttribute="trailing" id="vYb-Mc-aJd"/>
+                    <constraint firstItem="cxo-fi-Fdj" firstAttribute="leading" secondItem="umo-R5-zNQ" secondAttribute="trailing" constant="15" id="z0v-qO-Tgo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cidadeLabel" destination="cxo-fi-Fdj" id="9ev-if-0FK"/>
+                <outlet property="estadoLabel" destination="zG3-7z-3MI" id="JpT-5D-4GE"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="90.5"/>
+        </tableViewCell>
+    </objects>
+</document>
