@@ -31,6 +31,10 @@ class ListaPresenter: NSObject {
     
     //    MARK: - Process
     func filterCidades(cidades: [CidadeModel], cidadeParam: String, estadoParam: String){
+        /**
+         Filtra as cidades de acordo com a cidade e estado passados
+         Caso não haja parâmetros, exibe todos os resultados
+         */
         let filteredCidades: [CidadeModel] = cidades.filter({
             (($0.nome.lowercased().contains(cidadeParam.lowercased())) || (cidadeParam == "") &&
                 ($0.estado.lowercased().contains(estadoParam.lowercased()) || (estadoParam == "")))
@@ -43,14 +47,20 @@ class ListaPresenter: NSObject {
     func aggregateCidades(cidades: [CidadeModel]) -> [SectionInfo]{
         var sectionInfoArray: [SectionInfo] = []
         
+        /**
+         Agrupa as cidades em sections de acordo com seu Estado
+        */
+        
         for cidade in cidades{
             let estado = cidade.estado
             
             if let section = sectionInfoArray.filter({
+                //Verifica se há alguma section com o estado atual
                 $0.sectionTitle == estado
             }).first{
                 section.itemsInSection.append(cidade)
             } else{
+                //Caso não haja uma section com o nome do estado, cria uma nova
                 let section = SectionInfo(itemsInSection: [cidade], sectionTitle: estado)
                 sectionInfoArray.append(section)
             }

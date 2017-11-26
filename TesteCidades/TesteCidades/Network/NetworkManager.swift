@@ -31,18 +31,5 @@ extension NetworkManager {
             .validate(contentType: ["application/json"])
             .responseJSON(completionHandler: completion)
     }
-    
-    /**
-     Cria uma request do tipo get para URL.
-     */
-    static func requestURL(method: Method, url: String, parameters: Parameters? = nil, headers: Headers? = nil, completion: @escaping (DataResponse<Any>) -> Void) {
-        Alamofire.request(url
-            , method: method
-            , parameters: parameters
-            , encoding: URLEncoding.httpBody
-            , headers: headers)
-            .validate(statusCode: 200..<300)
-            .responseJSON(completionHandler: completion)
-    }
 }
 
